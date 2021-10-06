@@ -1,0 +1,112 @@
+@media (min-width: 576px) and (max-width: 991.98px) { 
+
+    .ipad-search{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        .search-bar{
+            width: 100%;
+            background: hsla(0,0%,100%,.5);
+            border-radius: 5px;
+            transition: .3s;
+            height: 36px;
+            input {
+                border: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: transparent;
+                flex-grow: 1;
+                font-size: 15px;
+                -webkit-transition: color .15s;
+                transition: color .15s;
+                color: black;
+                height: 100%;
+            }
+            button {
+                background-color: transparent;
+                border: none;
+            }
+        }
+        .mn-search{
+            padding: 0 5px;
+        }
+        .ipad-menu {
+            display: flex;
+        }
+    }
+
+    .hamburger {
+        position: absolute;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        z-index: 99;
+        width: 290px;
+        transition: 0.4s;
+    }
+    .hb-menu{
+        height: 100%;
+        background-color: white;
+        width: 100%;
+        .close {
+            background-color: transparent;
+            border: none;
+        }
+
+        li{
+            padding:12px 20px;
+            border-bottom: 1px solid #ebebeb;
+
+        }
+        .fst {
+            height: 55px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    .nav-panel {
+        position: relative;
+    }
+
+    .big-product{
+        margin-bottom: 15px !important;
+    }
+    .terms-conditions {
+        padding: 30px 60px 80px;
+    }
+    .mb-name {
+        margin-top: 60px;
+    }
+    .mb-product-add{
+        margin-top: 30px;
+        display: flex;
+    }
+    .tabs-item{
+        font-size: 18px;
+        padding: 18px 17px;
+    }
+    .prod-btn{
+        margin-left: 30px;
+    }
+    .mb-product-add{
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .post-page-img-box{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .post-page-header{
+        width: 90% !important;
+    }
+    .post-page-text{
+        width: 90% !important; 
+    }
+ }
